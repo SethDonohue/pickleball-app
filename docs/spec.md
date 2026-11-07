@@ -167,12 +167,15 @@ This is the headline feature, so it gets its own spec.
 | Rules | Booking windows by membership, max bookings, cancellation and no-show fees | P0 |
 | Programs | Clinics, leagues, ladders, round robins, coach booking | P1 |
 | Demand insight | Waitlist depth, fill rate and turned-away demand by time and skill level, with suggested sessions to add | P1 |
-| Front desk | Check-in, walk-ins, POS for pro shop and guest fees | P1 |
+| Check-in tablet | Front-desk tablet in kiosk mode: scan player QR, walk-ins, works offline for the day | P0 |
+| Front desk POS | Pro shop sales and guest fees with card readers or tap-to-pay | P1 |
 | Communication | Push, email, SMS campaigns by segment | P1 |
 | Reports and export | Utilization, revenue, retention; full data export anytime | P0 |
 | Multi-location | Franchise view, shared members, brand control | P2 |
 
 ### Architecture
+
+*Proposed. Stack and payment options are compared in [stack-options.md](stack-options.md); the owner picks one before building.*
 
 - **Apps:** React Native (Expo) for iOS and Android from one codebase; per-club white-label builds generated from brand tokens through EAS build pipelines. Next.js for the player web app and operator console.
 - **Backend:** TypeScript service on Node with a REST API and generated client SDK; background jobs on a queue (BullMQ on Redis) for reminders, sync and payouts.
@@ -218,7 +221,7 @@ Ship calendar sync and self-service in the very first version, because they are 
 **Phase 0 · Validate.** Interview a court manager and 5–10 open-play players. Build a click-through prototype of booking, calendar and self-service.
 *Gate: 3 clubs agree to pilot.*
 
-**Phase 1 · MVP for one pilot club.** Booking, payments, memberships, self-service, waitlist, web parity. Calendar auto-add, subscribe feed, reminders, .ics in emails.
+**Phase 1 · MVP for one pilot club.** Booking, payments, memberships, self-service, waitlist, web parity. Calendar auto-add, subscribe feed, reminders, .ics in emails. Front-desk check-in tablet.
 *Gate: the pilot club runs all bookings on it for 30 days.*
 
 **Phase 2 · v1 for paying clubs.** Two-way calendar sync, Wallet passes, programs and round robins. Demand insight, branded builds, CSV import from PlayByPoint.
