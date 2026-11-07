@@ -7,7 +7,7 @@ A pickleball court booking app to build and sell to the pickleball community, st
 - Early: idea and market research. No tech stack chosen yet.
 - When it's time to choose, propose 2–3 stack options with plain-language trade-offs (cost, speed to build, Android + iOS reach, how well it works without a computer) and let the owner decide. Once chosen, add a Stack section here.
 - Don't start writing app code until the owner says we're moving from research to building.
-- Research and spec live in `docs/spec.md`.
+- `docs/spec.md` is the single source of truth for research and the spec; cost and revenue estimates live in `docs/cost-estimates.md`, summarized and linked from the spec. Keep the two in sync.
 
 ## How we work
 - One feature at a time. After each one, give something testable on a phone before moving on.
