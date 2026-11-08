@@ -8,7 +8,7 @@ A pickleball court booking app to build and sell to the pickleball community, st
 - When it's time to choose, propose 2–3 stack options with plain-language trade-offs (cost, speed to build, Android + iOS reach, how well it works without a computer) and let the owner decide. Once chosen, add a Stack section here.
 - Don't start writing app code until the owner says we're moving from research to building.
 - `docs/spec.md` is the single source of truth for research and the spec; cost and revenue estimates live in `docs/cost-estimates.md`, summarized and linked from the spec. Keep the two in sync.
-- Stack and payment options are in `docs/stack-options.md` (not yet decided). Roles Claude takes on, and how it runs multiple agents, are in `docs/roles-note.md`.
+- Stack and payment options are in `docs/stack-options.md` (not yet decided). Roles Claude takes on, and how it runs multiple agents, are in `docs/roles-note.md`. Pilot club candidates are in `docs/pilot-clubs.md`.
 
 ## How we work
 - One feature at a time. After each one, give something testable on a phone before moving on.

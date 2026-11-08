@@ -95,6 +95,8 @@ Recommendation: build club software that operators pay for, and win the sale wit
 
 **Beachhead.** Independent indoor clubs with 4–12 courts: they pay for software, feel the branding tax most, and can switch in weeks. Franchises like The Picklr are the second wave once the product is proven, since one deal moves dozens to hundreds of sites.
 
+Candidate pilot clubs in the Seattle area are researched in [pilot-clubs.md](pilot-clubs.md).
+
 ## Technical specification
 
 The product is a multi-tenant club platform with a branded player app on every tier, whose bookings live in the player's calendar, wallet and messages, not just inside the app.
