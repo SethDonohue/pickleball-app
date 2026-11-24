@@ -45,3 +45,7 @@ A pickleball court booking app to build and sell to the pickleball community, st
 - Calendar export, notifications and location should use native plugins/APIs, not browser workarounds.
 - Request permissions at runtime with a clear reason, and keep the app usable if a permission is denied.
 - Don't change app IDs, signing configs or keystores without asking.
+
+## Commits
+- Author every commit as the owner's GitHub identity: `git config user.name "Seth Donohue"` and `git config user.email "31681651+SethDonohue@users.noreply.github.com"` (check with `git config user.email` before the first commit in a session; never commit as "Claude").
+- End commit messages with the attribution lines the session provides.
